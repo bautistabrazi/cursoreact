@@ -1,5 +1,6 @@
 .carrito-container{
     display: flex;
+    align-items: center
 }
 .cantidad{
     display: flex;
@@ -16,5 +17,17 @@
 .img-carrito{
     width: 50px;
     height: 50px;   
-    margin-top: 15px;
+    margin-right: 10px;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contad{
+    border: 1px solid black;
+    border-radius: 44px;
+    width: 20px;
+    height: 20px;
+
 }

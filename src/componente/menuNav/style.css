@@ -18,5 +18,13 @@
 .img-cart{
     width: 80px;
     height: auto;
-    margin-left: 45vw;
+    margin-left: 60vw;
+}
+.navbar{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar .navbar-nav{
+    display: flex;
+    align-items: end;
 }
