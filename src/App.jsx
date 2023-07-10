@@ -1,8 +1,8 @@
 import './index.css'
 import Navbar from './componente/menuNav';
-import CardWidget from './componente/CardWidget';
 import Carrito from './componente/Carrito';
 import ItemListContainer from './componente/ItemListContainer';
+import CartWidget from './componente/Cartwidget';
 
 
 
@@ -13,9 +13,8 @@ function App() {
     <h1 className='title-page'>Tu Celular</h1>
       <Navbar/>
       <div className='cards'>
-        <CardWidget/>
+        <CartWidget/>
         <Carrito/>
-        
       </div>
     </header>
    <ItemListContainer
