@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 10px 30px;
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: underline;
+}
