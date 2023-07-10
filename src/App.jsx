@@ -1,8 +1,7 @@
 import './index.css'
 import Navbar from './componente/menuNav';
-import Carrito from './componente/Carrito';
 import ItemListContainer from './componente/ItemListContainer';
-import CartWidget from './componente/Cartwidget';
+import CartWidget from './componente/CartWidget';
 
 
 
@@ -14,7 +13,6 @@ function App() {
       <Navbar/>
       <div className='cards'>
         <CartWidget/>
-        <Carrito/>
       </div>
     </header>
    <ItemListContainer

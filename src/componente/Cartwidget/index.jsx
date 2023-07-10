@@ -1,9 +1,13 @@
 import '../CartWidget/style.css'
 
-const CartWidget = () =>{
+const CartWidget= () => {
     return(
-        <img src="../imagenes/cel.png" alt="Phone" className="img-cart"></img>
+        <div className='carrito-container'>
+                    <img src="../imagenes/carrito2.png" alt="Carrito" className="img-carrito"/>
+                    <p className='cantidad'>1</p>
+        </div>
     )
 }
 
-export default CartWidget;
+export default CartWidget
+
