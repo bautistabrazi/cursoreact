@@ -1,9 +1,23 @@
+import Lista from '../list/lista';
 
+function ProdsInPage(productos) {
+  const listProductos = productos.map((item) => {
+    return (
+      <Lista
+        key={item.id}
+        nombre={item.nombre}
+        modelo={item.modelo}
+        imagen={item.imagen}
+        precioreal={item.precioreal}
+      />
+    );
+  });
 
-const ItemListContainer = (props) => {
-    return(
-        <h3>{props.titulo}</h3>
-    )
+  return listProductos;
 }
 
-export default ItemListContainer
+const ItemListContainer = (props) => {
+  return <div className='contenedor-productos'>{ProdsInPage(props.productos)}</div>;
+};
+
+export default ItemListContainer;

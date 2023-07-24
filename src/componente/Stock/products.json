@@ -1,0 +1,35 @@
+{"productos": [
+    {
+        "id": 1,
+        "nombre": "Samsung",
+        "modelo": "S23",
+        "precio": 650000,
+        "precioreal": "$650.000",
+        "imagen": "../imagenes/samsungs23.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung",
+        "modelo": "S23 Ultra",
+        "precio": 700000,
+        "precioreal": "$700.000",
+        "imagen": "../imagenes/samsungs23ultra.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Samsung",
+        "modelo": "S21",
+        "precio": 450000,
+        "precioreal": "$450.000",
+        "imagen": "../imagenes/samsungs22.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Samsung",
+        "modelo": "S22",
+        "precio": 500000,
+        "precioreal": "$500.000",
+        "imagen": "../imagenes/samsungs21.jpg"
+    }
+]
+}

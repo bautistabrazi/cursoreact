@@ -1,4 +1,3 @@
-import '../CartWidget/style.css'
 
 const CartWidget= () => {
     const contador = 0;
@@ -11,4 +10,3 @@ const CartWidget= () => {
 }
 
 export default CartWidget
-
