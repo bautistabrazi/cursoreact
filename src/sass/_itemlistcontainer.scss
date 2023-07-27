@@ -1,12 +1,7 @@
-.contenedor-productos{
-    display: flex;
-    margin: 25px;
-    justify-content: space-between;
-    .container-producto{
-        img{
-            width: 150px;
-            height: auto;
-        }
+.div-itemlistcontainer{
+    .title{
+        text-align: center;
+        font-weight: bold;
+        margin: 5vh 0vw;
     }
-
 }

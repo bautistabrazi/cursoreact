@@ -4,17 +4,14 @@ import {
   Route
 } from 'react-router-dom';
 
-import Home from './componente/pages/home';
 import Conocenos from './componente/pages/conocenos';
 import Registrarse from './componente/pages/registrarse';
-import Categories from './componente/pages/categorias';
 
 import './App.scss';
 
-import Navbar from './componente/menuNav';
-import ItemListContainer from './componente/ItemListContainer';
-import CartWidget from './componente/CartWidget';
-import products from './componente/Stock/products.json';
+import Navbar from './componente/MenuNav';
+import ItemListContainer from './componente/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './componente/ItemDetailContainer/ItemDetailContainer';
 
 function App() {
   return (
@@ -22,29 +19,29 @@ function App() {
     <BrowserRouter>
         <Navbar/>
       <Routes>
-        <Route
+        <Route 
           exact
           path='/'
-          element={<Home/>}
+          element={<ItemListContainer props={'Bienvenidos a B&B Mobiles'}/>}
         />
         <Route
         path='conocenos'
         element={<Conocenos/>}
         />
         <Route
-        path='categorias'
-        element={<Categories/>}
+        path='categorias/:categoriaId'
+        element={<ItemListContainer/>}
         />
         <Route
         path='registrarse'
         element={<Registrarse/>}
         />
+        <Route
+        path='/item/:id'
+        element={<ItemDetailContainer/>}
+        />
       </Routes> 
     </BrowserRouter>
-
-
-
-      <ItemListContainer productos={products.productos} />
       <footer>
 
       </footer>

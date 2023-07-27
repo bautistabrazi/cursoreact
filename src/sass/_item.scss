@@ -1,0 +1,33 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 20px;
+    justify-content: space-evenly;
+    .card{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        img{
+            width: 150px;
+            height: auto;
+        }
+        .card-body{
+            .card-title{
+                text-align: center;
+                font-weight: bold;
+            }
+            .precio{
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            .btn{
+                text-align: center;
+                width: 100%;
+                background-color: #FF5722;
+                border: 1px solid #FF5722;
+            }
+        }
+    }
+}

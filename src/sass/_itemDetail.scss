@@ -1,0 +1,27 @@
+.item-detail{
+    .item-title{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10vh;
+    }
+    .item-detail-prod{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 50px;
+        margin: 0px 20vw;
+        align-items: center;
+        .item-description{
+            font-weight: bold;
+        }
+        .item-precio{
+            display: grid;
+            justify-content: center;
+        }
+        .count-container{
+            display: grid;
+            justify-content: center;
+        }
+    }
+}

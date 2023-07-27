@@ -1,28 +1,41 @@
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import CardWidget from '../CartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
 
-import CartWidget from "../CartWidget";
-
-
-const Navbar = () => {
-    return (
-        <header className='header'>
-            <div className='header-title'>
-                <Link to='/' className='title'><h1 className='title-page'>B&B Mobiles</h1></Link>
-                <Link to='/' className='img'><img className="img-cart" src="../imagenes/cel.png" alt="img-cart" /></Link>
-                <div>
-                    <CartWidget/>
-                </div>
-            </div>
-            <nav id="navbar" className='nav'>
-                <div className='nav-item'>
-                    <Link to='/' className='link'>Home</Link>
-                    <Link to='/Categorias' className='link'>Categorias</Link>
-                    <Link to='/conocenos' className='link'>Sobre Nosotros</Link>
-                    <Link to='/registrarse' className='link'>Registrarse</Link>
-                </div>
-            </nav>
-        </header>
-    )
+function CollapsibleExample() {
+  return (
+    <Navbar collapseOnSelect expand="lg" className="bg">
+      <Container className='header-container'>
+        <Navbar.Brand as={NavLink} to='/' className='header-title'>B&B Mobile</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="navs-links me-auto">
+            <Nav.Link as={NavLink} to='/conocenos'>Conocenos</Nav.Link>
+            <Nav.Link as={NavLink} to='/registrarse'>Registrate</Nav.Link>
+            <NavDropdown  title="Categorias" id="collasible-nav-dropdown">
+              <NavDropdown.Item as={NavLink} to='/categorias/Ofertas'>Ofertas</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/categorias/Nuevos'>
+                Nuevos
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/categorias/Vendidos'>
+                Más Vendidos
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={NavLink} to='/'>
+                Todos los productos
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+          <Nav className='carrito'>
+            <CardWidget/>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar;
+export default CollapsibleExample;
