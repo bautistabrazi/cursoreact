@@ -7,7 +7,6 @@ import {
 import Conocenos from './componente/pages/conocenos';
 import Registrarse from './componente/pages/registrarse';
 import { CartProvider } from './context/CartContext';
-asdfasdf
 import './App.scss';
 
 import Navbar from './componente/MenuNav/MenuNav';
