@@ -14,7 +14,7 @@ import Navbar from './componente/MenuNav/MenuNav';
 import ItemListContainer from './componente/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './componente/ItemDetailContainer/ItemDetailContainer';
 import Footer from './componente/Footer/Footer';
-import Cart from './componente/Cart/cart';
+import Cart from './componente/Cart/Cart';
 import React,{ useEffect } from 'react';
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from './firebase/firebase';

@@ -1,0 +1,295 @@
+.carrito {
+  text-decoration: none;
+}
+.carrito .carrito-container {
+  display: flex;
+  align-items: center;
+}
+.carrito .carrito-container .img-carrito {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.carrito .carrito-container .img-carrito:hover {
+  width: 55px;
+  height: 55px;
+}
+.carrito .carrito-container span {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.carrito .carrito-container span:hover {
+  background-color: rgba(255, 250, 250, 0.6039215686);
+  border: 1.5px solid black;
+  box-shadow: 0px 0px 20px black;
+}
+
+.div-itemlistcontainer .title {
+  text-align: center;
+  font-weight: bold;
+  margin: 5vh 0vw;
+}
+
+.bg .header-container .header-title {
+  font-size: 2rem;
+}
+.bg .header-container .navbar-collapse .navs-links .nav-link {
+  font-size: 1.2rem;
+}
+.bg .header-container .navbar-collapse .navs-links .nav-link:hover {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #FF5722;
+  box-shadow: 1px 2px 12px black;
+}
+nav a {
+  font-weight: bold;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px 20px;
+  justify-content: space-evenly;
+}
+.contenedor .card {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contenedor .card img {
+  width: 150px;
+  height: auto;
+}
+.contenedor .card .card-body .card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.contenedor .card .card-body .precio {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.contenedor .card .card-body .btn {
+  text-align: center;
+  width: 100%;
+  background-color: #FF5722;
+  border: 1px solid #FF5722;
+}
+.contenedor .card .card-body .btn:hover {
+  font-size: 1.1rem;
+  box-shadow: black 1px 1px 20px;
+}
+
+.item-detail .item-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10vh;
+}
+.item-detail .item-detail-prod {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  margin: 0px 20vw;
+  align-items: center;
+}
+.item-detail .item-detail-prod img {
+  width: 300px;
+  height: auto;
+}
+.item-detail .item-detail-prod .item-description {
+  font-weight: bold;
+}
+.item-detail .item-detail-prod .item-precio {
+  display: grid;
+  justify-content: center;
+}
+.item-detail .item-detail-prod .count-container {
+  display: grid;
+  justify-content: center;
+}
+
+.count-container .count .btn {
+  background-color: #FF5722;
+  border: 1px solid #FF5722;
+  margin: 5px 5px;
+}
+.count-container button {
+  background-color: #FF5722;
+  border: 1px solid #FF5722;
+}
+
+.conocenos-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 50px;
+}
+.conocenos-container h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.conocenos-container .conocenos-parrafo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container-formulario {
+  margin: 50px 100px;
+}
+.container-formulario h2 {
+  margin: 30px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer .list-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #FF5722;
+  box-shadow: 6px 4px 18px rgba(0, 0, 0, 0.8784313725);
+}
+.footer .list-footer .item-img {
+  display: flex;
+  margin: 10px 40px;
+  list-style-type: none;
+}
+.footer .list-footer .item-img img {
+  width: 40px;
+  height: 40px;
+}
+.footer p {
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenedor-carrito .contenedor-carritodet .container-cart {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .item-name {
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .item-precio {
+  margin: 0px 50px;
+  display: flex;
+  align-items: center;
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .item-cantidad {
+  margin: 0px 50px;
+  display: flex;
+  align-items: center;
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .item-sub {
+  display: flex;
+  align-items: center;
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .btn-eliminar {
+  margin: 75px 30px;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.555);
+}
+.contenedor-carrito .contenedor-carritodet .container-cart .btn-eliminar:hover {
+  box-shadow: 0px 0px 20px 4px black;
+}
+.contenedor-carrito .contenedor-carritodet img {
+  width: auto;
+  height: 200px;
+}
+.contenedor-carrito .contenedor-carritodet .total-compra {
+  text-align: center;
+  font-size: 2rem;
+}
+.contenedor-carrito .contenedor-carritodet .btn-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.contenedor-carrito .contenedor-carritodet .btn-final .vaciar {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.contenedor-carrito .contenedor-carritodet .btn-final .vaciar:hover {
+  box-shadow: 0px 0px 20px 4px black;
+}
+.contenedor-carrito .contenedor-carritodet .btn-final .comprar {
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.contenedor-carrito .contenedor-carritodet .btn-final .comprar:hover {
+  box-shadow: 0px 0px 20px 4px black;
+}
+
+.container--carrito {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+.container--carrito .boton {
+  font-size: 2rem;
+}
+
+.section-form h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+.section-form .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-form .formulario div {
+  margin: 15px;
+}
+.section-form .formulario div label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.section-form .formulario div input {
+  width: 200px;
+}
+.section-form .formulario .btn-enviar {
+  margin: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: rgba(0, 128, 0, 0.397);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}/*# sourceMappingURL=index.css.map */
