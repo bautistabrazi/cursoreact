@@ -10,7 +10,7 @@ import { CartProvider } from './context/CartContext';
 
 import './App.scss';
 
-import Navbar from './componente/MenuNav';
+import Navbar from './componente/MenuNav/MenuNav';
 import ItemListContainer from './componente/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './componente/ItemDetailContainer/ItemDetailContainer';
 import Footer from './componente/Footer/Footer';
