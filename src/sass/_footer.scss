@@ -1,0 +1,22 @@
+.footer{
+    .list-footer{
+        display: flex;
+        justify-content: center;
+        background-color: #FF5722;
+        box-shadow: 6px 4px 18px #000000e0;
+        .item-img{
+            display: flex;
+            margin: 10px 40px;
+            list-style-type: none;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    p{
+        font-size: 1em;
+        text-align: center;
+        font-weight: bold;
+    }
+}

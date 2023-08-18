@@ -8,7 +8,10 @@
             .navs-links{
                 .nav-link{
                     font-size: 1.2rem;
-                    font-weight: bold;
+                    &:hover{
+                        font-size: 1.25rem; 
+                        font-weight: bold;  
+                    }
                 }
             }
         }

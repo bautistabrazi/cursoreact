@@ -29,9 +29,9 @@ function CollapsibleExample() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav className='carrito'>
+          <NavLink to='/cart' className='carrito'>
             <CardWidget/>
-          </Nav>
+          </NavLink>
         </Navbar.Collapse>
       </Container>
     </Navbar>

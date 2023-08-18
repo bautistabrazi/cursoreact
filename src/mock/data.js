@@ -1,7 +1,6 @@
 
-const productos = [
+export const productos = [
     {
-        id: '1',
         nombre: 'Samsung',
         modelo: 'S23',
         stock:10,
@@ -12,7 +11,6 @@ const productos = [
         categoria: 'Vendidos'
     },
     {
-        id: '2',
         nombre: 'Samsung',
         stock:20,
         modelo: 'S23 Ultra',
@@ -23,7 +21,6 @@ const productos = [
         categoria: 'Ofertas'
     },
     {
-        id: '3',
         nombre: 'Samsung',
         stock:5,
         modelo: 'S21',
@@ -34,7 +31,6 @@ const productos = [
         categoria: 'Vendidos'
     },
     {
-        id: '4',
         nombre: 'Samsung',
         stock: 10,
         modelo: 'S22',
@@ -45,7 +41,6 @@ const productos = [
         categoria: 'Vendidos'
     },
     {
-        id: '5',
         nombre: 'Iphone',
         stock: 5,
         modelo: '14 Pro Max',
@@ -56,7 +51,6 @@ const productos = [
         categoria: 'Nuevos'
     },
     {
-        id: '6',
         nombre: 'Iphone',
         stock: 8,
         modelo: '14',
@@ -67,7 +61,6 @@ const productos = [
         categoria: 'Ofertas'
     },
     {
-        id: '7',
         nombre: 'Iphone',
         stock: 11,
         modelo: '13',
@@ -78,7 +71,6 @@ const productos = [
         categoria: 'masvendidos'
     },
     {
-        id: '8',
         nombre: 'Iphone',
         stock: 12,
         modelo: '13 Pro Max',
@@ -89,7 +81,6 @@ const productos = [
         categoria: 'Ofertas'
     },
     {
-        id: '9',
         nombre: 'Motorola',
         stock: 15,
         modelo: 'Razr 40 Ultra',
@@ -100,7 +91,6 @@ const productos = [
         categoria: 'Nuevos'
     },
     {
-        id: '10',
         nombre: 'Motorola',
         stock: 15,
         modelo: 'Edge 40 Pro',
@@ -111,7 +101,6 @@ const productos = [
         categoria: 'Ofertas'
     },
     {
-        id: '11',
         nombre: 'Motorola',
         stock: 15,
         modelo: 'Edge 30 Ultra',
@@ -122,7 +111,6 @@ const productos = [
         categoria: 'Vendidos'
     },
     {
-        id: '12',
         nombre: 'Motorola',
         stock: 15,
         modelo: 'Edge 40',

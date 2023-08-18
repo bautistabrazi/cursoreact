@@ -1,0 +1,86 @@
+.contenedor-carrito{
+    .contenedor-carritodet{
+        .container-cart{
+            display: flex;
+            flex-wrap: nowrap;
+            .item-name{
+                display: flex;
+                align-items: center;
+                margin: 0px 50px;
+            }
+            .item-precio{
+                margin: 0px 50px;
+                display: flex;
+                align-items: center;
+            }
+            .item-cantidad{
+                margin: 0px 50px;
+                display: flex;
+                align-items: center;
+            }
+            .item-sub{
+                display: flex;
+                align-items: center;
+            }
+            .btn-eliminar{
+                margin: 75px 30px;
+                padding: 10px;
+                border: 2px solid black;
+                font-weight: bold;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 0, 0, 0.555);
+                &:hover{
+                    box-shadow: 0px 0px 20px 4px black;  
+                }
+            }
+        }
+        img{
+            width: auto;
+            height: 200px;
+        }
+        .total-compra{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .btn-final{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            .vaciar{
+                margin: 20px;
+                padding: 10px;
+                border: 2px solid black;
+                border-radius: 20px;
+                font-weight: bold;
+                &:hover{
+                    box-shadow: 0px 0px 20px 4px black;
+                }
+            }
+            .comprar{
+                border-radius: 20px;
+                border: 2px solid black;
+                padding: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color:black;
+                &:hover{
+                    box-shadow: 0px 0px 20px 4px black;
+                }
+            }
+        }
+    }
+}
+
+
+.container--carrito{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    .boton{
+            font-size: 2rem;
+    }
+}

@@ -27,6 +27,10 @@
                 width: 100%;
                 background-color: #FF5722;
                 border: 1px solid #FF5722;
+                &:hover{
+                    font-size: 1.1rem;
+                    box-shadow: black 1px 1px 20px;
+                }
             }
         }
     }
