@@ -26,7 +26,7 @@ export const productos = [
         modelo: 'S21',
         precio: 450000,
         precioreal: '$450.000',
-        imagen: 'https://i.postimg.cc/nLM8TnLk/samsungs22.webpg',
+        imagen: 'https://i.postimg.cc/nLM8TnLk/samsungs22.webp',
         descripcion: 'El Samsung Galaxy S21 es un teléfono inteligente de alta gama con un diseño elegante y especificaciones potentes. Algunas de sus características destacadas incluían una pantalla Dynamic AMOLED de alta resolución con una frecuencia de actualización de hasta 120 Hz, lo que proporcionaba una experiencia visual suave y envolvente. Contaba con el potente procesador Exynos 2100 (o Snapdragon 888 en algunos mercados) y opciones de memoria RAM de hasta 16 GB.',
         categoria: 'Vendidos'
     },
